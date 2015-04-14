@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FinalNotePad</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="calls">Calls</string>
+    <string name="add_category">New Category</string>
+    <string name="category_theme">Category Theme</string>
+    <string name="message_no_title">Add entry please</string>
+    <string name="delete_category">Delete Item</string>
+    <string name="title">Title</string>
+    <string name="text">Note text</string>
+    <string name="activity_input_title">Add record</string>
+    <string name="activity_main_title">All Themes</string>
+    <string name="delete_note">Delete</string>
+    <string name="edit_note">Edit</string>
+
+</resources>

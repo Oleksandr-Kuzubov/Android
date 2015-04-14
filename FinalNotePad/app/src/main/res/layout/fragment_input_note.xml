@@ -1,0 +1,44 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    android:orientation="vertical"
+    tools:context="${relativePackage}.${activityClass}" >
+    
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity = "center_horizontal"
+        android:text="@string/activity_input_title"
+        android:textSize="24sp"/>
+
+    <EditText
+        android:id="@+id/activity_input_note_edit_text_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/title"
+        android:inputType="textMultiLine"
+        android:singleLine="true" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/activity_input_note_edit_text_note_text"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:ems="10"
+        android:hint="@string/text"
+        android:gravity="start"
+        android:inputType="text" />
+
+    <Button
+        android:id="@+id/fragment_input_note_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@android:string/ok" />
+
+</LinearLayout>

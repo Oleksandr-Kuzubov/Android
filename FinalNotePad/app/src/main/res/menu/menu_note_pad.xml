@@ -1,0 +1,10 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/menu_note_pad_add_category"
+        android:icon="@android:drawable/ic_menu_add"
+        android:showAsAction="always"
+        android:title="@string/add_category"/>
+
+</menu>
